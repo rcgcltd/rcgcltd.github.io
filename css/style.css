@@ -1,0 +1,71 @@
+/* line 7, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.com/css/style.scss */
+html {
+  height: 100%;
+  font-family: Lato, Ubuntu, FontAwesome, Sans-serif; }
+
+/* line 11, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.com/css/style.scss */
+body {
+  height: 100%; }
+
+/* line 14, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.com/css/style.scss */
+.logo-title {
+  font-weight: 700; }
+
+/* line 17, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.com/css/style.scss */
+.logo-subtitle {
+  color: #888;
+  font-size: 1rem; }
+
+/* line 22, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.com/css/style.scss */
+.logo-img {
+  max-width: 50px; }
+
+/* line 26, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.com/css/style.scss */
+.brand-button {
+  color: #d1be5f;
+  border: 1px solid #d1be5f; }
+
+/* line 31, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.com/css/style.scss */
+.brand-color-dark {
+  color: #8C7D33; }
+
+/* line 34, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.com/css/style.scss */
+.main {
+  height: 100%; }
+
+/* line 37, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.com/css/style.scss */
+.hero {
+  min-height: 500px;
+  min-height: 80vh;
+  width: 100%;
+  color: #eee;
+  background-color: #202020; }
+
+/* line 45, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.com/css/style.scss */
+.full-row {
+  height: 100%; }
+
+/* line 48, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.com/css/style.scss */
+.faded-text-1 {
+  color: #444; }
+
+/* line 52, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.com/css/style.scss */
+.services .list-group-item {
+  padding-top: 0;
+  padding-bottom: 2px;
+  border: 0;
+  color: #888; }
+  /* line 57, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.com/css/style.scss */
+  .services .list-group-item:before {
+    content: "* ";
+    font-weight: 700; }
+
+/* line 64, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.com/css/style.scss */
+.services .list-group {
+  list-style-type: square; }
+
+/* line 67, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.com/css/style.scss */
+.services h4 {
+  margin-top: 1rem; }
+
+/*# sourceMappingURL=style.css.map */
