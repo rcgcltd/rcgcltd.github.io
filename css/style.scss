@@ -1,8 +1,11 @@
 $color-faded-text: #888;
 $color-faded-text-1: #444;
+$color-inverse-1: #eee;
 $brand-color-light: #d1be5f;
 $brand-color-dark: #8C7D33;
-$default-font-stack: Lato, Ubuntu, FontAwesome, Sans-serif;
+$default-font-stack: -apple-system,system-ui,Lato, Ubuntu, FontAwesome, Sans-serif;
+$bg-color-inverse: #202020;
+$border-light: 1px solid rgba(200, 200, 211, 0.5);
 
 html {
     height: 100%;
@@ -10,6 +13,15 @@ html {
 }
 body {
     height: 100%;
+    font-family: $default-font-stack;
+}
+
+a {
+    color: $brand-color-light;
+    &:hover {
+        background-color: $brand-color-dark;
+        color: $color-inverse-1;
+    }
 }
 .logo-title {
 	font-weight: 700;
@@ -22,6 +34,9 @@ body {
 .logo-img {
 	max-width: 50px;
 }
+.brand-icon {
+    max-width: 90px;
+}
 
 .brand-button {
 	color: $brand-color-light;
@@ -31,6 +46,9 @@ body {
 .brand-color-dark {
     color: $brand-color-dark;
 }
+.brand-color-light {
+	color: $brand-color-light;
+}
 .main {
     height: 100%;
 }
@@ -38,11 +56,11 @@ body {
     min-height: 500px;
     min-height: 80vh;
     width: 100%;
-    color: #eee;
-    background-color: #202020;
+    color: $color-inverse-1;
+    background-color: $bg-color-inverse;
 }
 
-.full-row {
+.full-row{
    height: 100%;
 }
 .faded-text-1 {
@@ -55,15 +73,21 @@ body {
     border: 0;
     color: $color-faded-text;
     &:before {
-        content: "* ";
+        content: "\f00c";
         font-weight: 700;
     }
     
 }
 
-.services .list-group {
-    list-style-type: square;
+.services, .services .list-group-item{
+	background: $bg-color-inverse;
+    color: $color-inverse-1;
 }
-.services h4{
-	margin-top: 1rem;
+.service-border {
+	border-bottom: $border-light;
+}
+@media (min-width: 768px){
+.service-border  {
+	border-left: $border-light;
+}
 }
