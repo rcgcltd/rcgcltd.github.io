@@ -1,0 +1,79 @@
+$light-border: 1px solid #fff;
+$default-font-stack: Lato, Ubuntu, Sans-serif;
+$color-primary-light: #f9f9f9;
+$color-faded-light: #f0f044;
+$color-secondary-light: #ff9;
+html {height: 100%;}
+
+body {
+    font-family: $default-font-stack;
+    height: 100%;
+}
+.custom-button {
+    border: $light-border;
+    color: #ff9;
+    a {
+        text-decoration: none;
+        color: #ee9;
+    }
+}
+.btn-primary {
+	background-color: #cc9;
+    border: 1px solid #cc9;
+    &:hover {
+        background-color: #eee;
+        color: #333;
+    }
+}
+.shedule-text {
+	color: #eee;
+    text-shadow: 3px 3px 7px #000;
+    font-size: 1.3rem;
+}
+
+.heading-faded {
+	color: $color-secondary-light;
+}
+.text-light {
+    color: $color-primary-light;
+}
+
+.main {
+    
+}
+.title-text {
+    max-width: 500px;
+    
+}
+.hero {
+    min-height: 500px;
+    min-height: 80vh;
+    width: 100%;
+    color: #eee;
+    background-image: url("../images/hero_background.jpg");
+    background-size: cover;
+}
+.event-info {
+	text-align: center;
+}
+
+@media (min-width: 768px){
+    .event-info {
+        max-width: 700px;
+        max-width: 50vw;
+    }
+}
+
+.text-align-center {
+    text-align: center;
+}
+.text-align-right {
+    text-align: right;
+}
+.text-spaced-letters {
+	letter-spacing: 2rem;
+}
+
+.shedule time {
+    border-right: 1px solid $color-faded-light;
+}

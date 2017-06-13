@@ -1,0 +1,81 @@
+/* line 6, /home/kennedy/Documents/FreeCodeCamp.org/staging/business_conference/css/style.scss */
+html {
+  height: 100%; }
+
+/* line 8, /home/kennedy/Documents/FreeCodeCamp.org/staging/business_conference/css/style.scss */
+body {
+  font-family: Lato, Ubuntu, Sans-serif;
+  height: 100%; }
+
+/* line 12, /home/kennedy/Documents/FreeCodeCamp.org/staging/business_conference/css/style.scss */
+.custom-button {
+  border: 1px solid #fff;
+  color: #ff9; }
+  /* line 15, /home/kennedy/Documents/FreeCodeCamp.org/staging/business_conference/css/style.scss */
+  .custom-button a {
+    text-decoration: none;
+    color: #ee9; }
+
+/* line 20, /home/kennedy/Documents/FreeCodeCamp.org/staging/business_conference/css/style.scss */
+.btn-primary {
+  background-color: #cc9;
+  border: 1px solid #cc9; }
+  /* line 23, /home/kennedy/Documents/FreeCodeCamp.org/staging/business_conference/css/style.scss */
+  .btn-primary:hover {
+    background-color: #eee;
+    color: #333; }
+
+/* line 28, /home/kennedy/Documents/FreeCodeCamp.org/staging/business_conference/css/style.scss */
+.shedule-text {
+  color: #eee;
+  text-shadow: 3px 3px 7px #000;
+  font-size: 1.3rem; }
+
+/* line 34, /home/kennedy/Documents/FreeCodeCamp.org/staging/business_conference/css/style.scss */
+.heading-faded {
+  color: #ff9; }
+
+/* line 37, /home/kennedy/Documents/FreeCodeCamp.org/staging/business_conference/css/style.scss */
+.text-light {
+  color: #f9f9f9; }
+
+/* line 44, /home/kennedy/Documents/FreeCodeCamp.org/staging/business_conference/css/style.scss */
+.title-text {
+  max-width: 500px; }
+
+/* line 48, /home/kennedy/Documents/FreeCodeCamp.org/staging/business_conference/css/style.scss */
+.hero {
+  min-height: 500px;
+  min-height: 80vh;
+  width: 100%;
+  color: #eee;
+  background-image: url("../images/hero_background.jpg");
+  background-size: cover; }
+
+/* line 56, /home/kennedy/Documents/FreeCodeCamp.org/staging/business_conference/css/style.scss */
+.event-info {
+  text-align: center; }
+
+@media (min-width: 768px) {
+  /* line 61, /home/kennedy/Documents/FreeCodeCamp.org/staging/business_conference/css/style.scss */
+  .event-info {
+    max-width: 700px;
+    max-width: 50vw; } }
+
+/* line 67, /home/kennedy/Documents/FreeCodeCamp.org/staging/business_conference/css/style.scss */
+.text-align-center {
+  text-align: center; }
+
+/* line 70, /home/kennedy/Documents/FreeCodeCamp.org/staging/business_conference/css/style.scss */
+.text-align-right {
+  text-align: right; }
+
+/* line 73, /home/kennedy/Documents/FreeCodeCamp.org/staging/business_conference/css/style.scss */
+.text-spaced-letters {
+  letter-spacing: 2rem; }
+
+/* line 77, /home/kennedy/Documents/FreeCodeCamp.org/staging/business_conference/css/style.scss */
+.shedule time {
+  border-right: 1px solid #f0f044; }
+
+/*# sourceMappingURL=style.css.map */
