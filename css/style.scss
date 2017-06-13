@@ -1,26 +1,47 @@
 $color-faded-text: #888;
 $color-faded-text-1: #444;
 $color-inverse-1: #eee;
+$color-inverse-2: #e5e6e7;
 $brand-color-light: #d1be5f;
 $brand-color-dark: #8C7D33;
-$default-font-stack: -apple-system,system-ui,Lato, Ubuntu, FontAwesome, Sans-serif;
+$default-font-stack: system-ui,Lato, Roboto, Arial,  Sans-serif, FontAwesome;
 $bg-color-inverse: #202020;
 $border-light: 1px solid rgba(200, 200, 211, 0.5);
+$color-grey: #343434;
 
 html {
     height: 100%;
-    font-family: $default-font-stack;
 }
 body {
     height: 100%;
     font-family: $default-font-stack;
 }
 
-a {
+.services a {
     color: $brand-color-light;
     &:hover {
         background-color: $brand-color-dark;
         color: $color-inverse-1;
+    }
+}
+.b-link-inverse {
+    color: $brand-color-light;
+    &:hover {
+        background-color: $brand-color-dark;
+        color: $color-inverse-1;
+    }
+}
+.b-link {
+    color: $brand-color-dark;
+    &:hover {
+        background-color: $brand-color-light;
+        color: $color-inverse-2;
+    }
+}
+.b-link-nobg {
+   color: $brand-color-dark; 
+    &:hover {
+        color: $color-grey;
     }
 }
 .logo-title {
@@ -29,6 +50,7 @@ a {
 .logo-subtitle {
 	color: $color-faded-text;
     font-size: 1rem;
+    
 }
 
 .logo-img {
@@ -86,8 +108,15 @@ a {
 .service-border {
 	border-bottom: $border-light;
 }
+.services .brand-icon{
+	    display: none;
+    }
 @media (min-width: 768px){
 .service-border  {
 	border-left: $border-light;
 }
+    .services .brand-icon{
+	    display: block;
+    }
+
 }
