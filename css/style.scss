@@ -120,11 +120,18 @@ body {
 	    display: none;
     }
 @media (min-width: 768px){
-.service-border  {
-	border-left: $border-light;
-}
+    .service-border  {
+	    border-left: $border-light;
+    }
     .services .brand-icon{
 	    display: block;
     }
 
+}
+
+.form-group {
+//	margin: auto 5px;
+}
+textarea {
+//    max-height: 100%;
 }

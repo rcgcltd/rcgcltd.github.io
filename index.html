@@ -73,7 +73,7 @@
                 </div>
             </div>
         </section>
-        <div class="services container-fluid pt-5 pb-4" id="services">
+        <section class="services container-fluid pt-5 pb-4" id="services">
 <!--          Container here for uniformity in layout-->
            <div class="services container">
             <header class="header row justify-content-center">
@@ -133,27 +133,58 @@
                 </div>
             </div>
             </div>
-        </div>
-        <section class="contacts container my-4" id="contacts">
+        </section>
+        <section class="contacts container ml-4 ml-sm-auto my-4" id="contacts">
             <header class="header row">
                 <h3 class="text-uppercase">get <strong class="brand-color-dark">in touch</strong></h3>
             </header>
             <div class="row">
-                <div class="col-12 col-md-4 d-flex flex-column">
+                <div class="col-12 col-sm-4 d-flex flex-column">
                     <a class="b-link-nobg " href="tel:2348051374057"><i class="fa fa-phone"></i> 08051374057</a>
                     <a class="b-link-nobg" href="tel:2348082156912"><i class="fa fa-phone"></i> 08082156912</a>
                     <a class="b-link-nobg" href="tel:2349036851000"><i class="fa fa-phone"></i> 09036851000</a>
                     <a class="b-link-nobg py-0" href="mailto:rcgcltd@hotmail.com"><i class="fa fa-envelope"></i> rcgcltd&#64;hotmail.com</a>
                 </div>
-                <div class="col-12 col-md-8">
-                    <form class="row">
-                        <input type="text" required placeholder="Name" id="inputName">
+                <div class="col-12 col-sm-8">
+                    <form action="https://formspree.io/rcgcltd@hotmail.com" method="POST">
+                      <div class="row">
+                       <div class="col-12 col-sm-4">
+                            <div class="form-group">
+                                <label for="inputName">Your name:</label>
+                                <input type="text" class="form-control" id="inputName" name="name" placeholder="Name" autocomplete="name" >
+                            </div>
+                            <div class="form-group">
+                                <label for="inputEmail">Email address:</label>
+                                <input type="email" class="form-control" id="inputEmail" name="_replyto" placeholder="Email" required autocomplete="email">
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4">
+                            <div class="form-group">
+                                <label for="inputPhone">Phone number:</label>
+                                <input type="tel" class="form-control" name="phone" id="inputPhone" placeholder="Phone" autocomplete="mobile" >
+                            </div>
+                            <div class="form-group">
+                                <label for="inputCompany">Your company:</label>
+                                <input type="text" class="form-control" id="inputCompany" name="organization" placeholder="Company" autocomplete="organization">
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4 ">
+                            <div class="form-group">
+                                <label for="inputMessage">Type your message:</label>
+                                <textarea id="inputMessage" placeholder="Enter message here" name="message" class="form-control "></textarea>
+                            </div>
+                        </div>
+       
+                        </div>
+                        <div class="row justify-content-end w-100">
+                            <button type="submit" value="send" class="custom-control btn brand-color-dark">Send</button>
+                          </div>
                     </form>
-                    <div class="row"></div>
+                    
                 </div>
             </div>
         </section>
-        <footer class="footer-main container-fluid">
+        <footer class="footer-main container-fluid bg-inverse brand-color-light">
            <div class="footer-main container">
             <div class="row">
                 <p>&copy; 2017 RoxyChima Global Concepts Limited</p>
