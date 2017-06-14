@@ -88,35 +88,37 @@ body {
 .faded-text-1 {
   color: #444; }
 
-/* line 92, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
-.services .list-group-item {
+/* line 93, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
+.services ul {
+  list-style-position: inside;
+  list-style-image: url("/icons/tick_grad_brand.svg"); }
+
+/* line 97, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
+.services li {
   padding-top: 0;
   padding-bottom: 2px;
   border: 0;
-  color: #888; }
-  /* line 97, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
-  .services .list-group-item:before {
-    content: "\f00c";
-    font-weight: 700; }
+  color: #888;
+  margin-left: 20px; }
 
-/* line 104, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
+/* line 112, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
 .services, .services .list-group-item {
   background: #202020;
   color: #eee; }
 
-/* line 108, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
+/* line 116, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
 .service-border {
   border-bottom: 1px solid rgba(200, 200, 211, 0.5); }
 
-/* line 111, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
+/* line 119, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
 .services .brand-icon {
   display: none; }
 
 @media (min-width: 768px) {
-  /* line 115, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
+  /* line 123, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
   .service-border {
     border-left: 1px solid rgba(200, 200, 211, 0.5); }
-  /* line 118, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
+  /* line 126, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
   .services .brand-icon {
     display: block; } }
 
