@@ -122,4 +122,41 @@ body {
   .services .brand-icon {
     display: block; } }
 
+@media (max-width: 576px) {
+  /* line 139, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
+  .team .media {
+    flex-flow: wrap;
+    justify-content: center;
+    margin-bottom: 2rem; }
+    /* line 146, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
+    .team .media .media-body {
+      margin-top: 1rem;
+      flex: 1 1 100%;
+      text-align: center; } }
+
+@media (min-width: 577px) and (max-width: 767px) {
+  /* line 156, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
+  .team .media:nth-child(even) img {
+    order: 1; }
+  /* line 157, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
+  .team .media:nth-child(even) .media-body {
+    margin-right: 10px;
+    text-align: right; } }
+
+@media (min-width: 768px) {
+  /* line 167, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
+  .team .media:nth-child(4n+3) img {
+    order: 1; }
+  /* line 168, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
+  .team .media:nth-child(4n+3) .media-body {
+    margin-right: 10px;
+    text-align: right; }
+  /* line 174, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
+  .team .media:nth-child(4n+4) img {
+    order: 1; }
+  /* line 175, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
+  .team .media:nth-child(4n+4) .media-body {
+    margin-right: 10px;
+    text-align: right; } }
+
 /*# sourceMappingURL=style.css.map */

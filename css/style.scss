@@ -135,3 +135,48 @@ body {
 textarea {
 //    max-height: 100%;
 }
+@media (max-width: 576px){
+.team .media {
+	flex-flow: wrap;
+    justify-content: center;
+    margin-bottom: 2rem;
+    img {
+        
+    }
+    .media-body {
+        margin-top: 1rem;
+        flex: 1 1 100%;
+        text-align: center;
+    }
+}
+}
+
+@media (min-width: 577px) and (max-width: 767px){
+.team .media:nth-child(even){
+    img {order: 1;}
+        .media-body {
+            margin-right: 10px;
+            text-align: right;
+        }
+    }
+    
+}
+
+@media (min-width: 768px) {
+    .team .media:nth-child(4n+3){
+        img {order: 1;}
+        .media-body {
+            margin-right: 10px;
+            text-align: right;
+        }
+    }
+    .team .media:nth-child(4n+4){
+        img {order: 1;}
+        .media-body {
+            margin-right: 10px;
+            text-align: right;
+        }
+    }
+
+
+}
