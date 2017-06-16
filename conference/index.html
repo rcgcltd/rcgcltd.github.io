@@ -3,6 +3,14 @@
 <html>
 	<head>
 		<title>Human Empowerment Seminar</title>
+		<link rel="icon" type="image/png" sizes="192x192"  href="icons/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="../icons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="../icons/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="../icons/favicon-16x16.png">
+        <link rel="manifest" href="../icons/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="../icons/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="../bootstrap-4.0.0-alpha.6-dist/css/bootstrap.min.css">
@@ -31,7 +39,7 @@
             <a class="nav-link" href="#sponsors">sponsors</a>
           </li>
         </ul>
-        <div class="custom-button nav-item text-uppercase"><a class="nav-link" href="#">reserve seat</a></div>
+        <div class="custom-button nav-item text-uppercase"><a class="nav-link" href="tel:08082156912">reserve seat</a></div>
       </div>
       
     </nav>
@@ -61,40 +69,41 @@
             <div class="event-info d-flex flex-wrap justify-content-center mr-auto ml-auto">
                 <h1 class="event-header text-capitalize">human empowerment and economic growth</h1>
                 <p>Being able to rise up to the glaring economic challenges of our times requires that indiduals obtain the knowledge and motivation that will enable them be financially independent and viable; creating jobs for others as well.<br>This conference is aimed at enlightening people on the opportunities that abound and giving the people the needed <strong>push</strong> to financial independence.</p>
-                <button type="button" class="btn btn-primary text-uppercase" data-toggle="modal" data-target="#reserveModal">reserve seat</button>
+                <a type="button" class="btn btn-primary text-uppercase" data-toggle="modal" data-target="#exampleModal">reserve seat</a>
+<!--                TODO make this modal to work! -->
                 <!-- Modal -->
-                <div class="modal fade" id="reserveModal" tabindex="-1" role="dialog" aria-labelledby="reserveModalLabel" aria-hidden="true">
-                  <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                     <form action="https://formspree.io/rcgcltd@hotmail.com" method="POST">
-                      <div class="modal-header">
-                        <h5 class="modal-title" id="reserveModalLabel">Reserve Seat</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-                      </div>
-                      <div class="modal-body">
-                               <div class="form-group">
-                                <label for="inputName">Your name:</label>
-                                <input type="text" class="form-control" id="inputName" name="name" placeholder="Name" autocomplete="name" >
-                            </div>
-                            <div class="form-group">
-                                <label for="inputEmail">Email address:</label>
-                                <input type="email" class="form-control" id="inputEmail" name="_replyto" placeholder="Email" required autocomplete="email">
-                            </div>
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="submit" class="btn btn-primary">Reserve seat</button>
-                  </div>
-                </form>
-                </div>
-              </div>
-            </div>
-            </div>
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="recipient-name" class="form-control-label">Recipient:</label>
+            <input type="text" class="form-control" id="recipient-name">
+          </div>
+          <div class="form-group">
+            <label for="message-text" class="form-control-label">Message:</label>
+            <textarea class="form-control" id="message-text"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Send message</button>
+      </div>
+    </div>
+  </div>
+</div>
+          </div>
         </div>
         <section class="speakers container" id="speakers">
-            <h1 class="row text-uppercase">speakers</h1>
+            <h1 class="row text-uppercase justify-content-center">speakers</h1>
             <div class="speakers row">
                 <div class="speaker card col">
                     <img class="card-img-top d-flex align-self-center rounded-circle" src="../images/chima_ceo_thumb.jpg" alt="Speaker image" width="200px">
