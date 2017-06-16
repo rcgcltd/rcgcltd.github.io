@@ -49,36 +49,37 @@ body {
   min-height: 80vh;
   width: 100%;
   color: #eee;
+  background-color: #505050;
   background-image: url("../images/hero_background.jpg");
   background-size: cover; }
 
-/* line 56, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/conference/css/style.scss */
+/* line 57, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/conference/css/style.scss */
 .event-info {
   text-align: center; }
 
 @media (min-width: 768px) {
-  /* line 61, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/conference/css/style.scss */
+  /* line 62, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/conference/css/style.scss */
   .event-info {
     max-width: 700px;
     max-width: 50vw; } }
 
-/* line 67, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/conference/css/style.scss */
+/* line 68, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/conference/css/style.scss */
 .text-align-center {
   text-align: center; }
 
-/* line 70, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/conference/css/style.scss */
+/* line 71, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/conference/css/style.scss */
 .text-align-right {
   text-align: right; }
 
-/* line 73, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/conference/css/style.scss */
+/* line 74, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/conference/css/style.scss */
 .text-spaced-letters {
   letter-spacing: 2rem; }
 
-/* line 77, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/conference/css/style.scss */
+/* line 78, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/conference/css/style.scss */
 .shedule time {
   border-right: 1px solid #f0f044; }
 
-/* line 81, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/conference/css/style.scss */
+/* line 82, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/conference/css/style.scss */
 .card {
   border: none; }
 
