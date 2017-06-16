@@ -8,71 +8,77 @@ body {
   font-family: system-ui, Lato, Roboto, Arial, Sans-serif, FontAwesome; }
 
 /* line 20, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
+.bg-grey {
+  background-color: #eee; }
+
+/* line 24, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
 .services a {
   color: #d1be5f; }
-  /* line 22, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
+  /* line 26, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
   .services a:hover {
     background-color: #8C7D33;
     color: #eee; }
 
-/* line 27, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
+/* line 32, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
 .b-link-inverse {
   color: #d1be5f; }
-  /* line 29, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
+  /* line 34, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
   .b-link-inverse:hover {
+    text-decoration: none;
     background-color: #8C7D33;
     color: #eee; }
 
-/* line 34, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
+/* line 40, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
 .b-link {
   color: #8C7D33; }
-  /* line 36, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
+  /* line 43, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
   .b-link:hover {
+    text-decoration: none;
     background-color: #d1be5f;
     color: #e5e6e7; }
 
-/* line 41, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
+/* line 49, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
 .b-link-nobg {
   color: #8C7D33; }
-  /* line 43, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
+  /* line 51, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
   .b-link-nobg:hover {
     color: #343434; }
 
-/* line 47, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
+/* line 55, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
 .logo-title {
   font-weight: 700; }
 
-/* line 50, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
+/* line 58, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
 .logo-subtitle {
   color: #888;
   font-size: 1rem; }
 
-/* line 56, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
+/* line 64, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
 .logo-img {
   max-width: 50px; }
 
-/* line 59, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
+/* line 73, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
 .brand-icon {
   max-width: 90px; }
 
-/* line 63, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
+/* line 77, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
 .brand-button {
   color: #d1be5f;
   border: 1px solid #d1be5f; }
 
-/* line 68, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
+/* line 82, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
 .brand-color-dark {
   color: #8C7D33; }
 
-/* line 71, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
+/* line 85, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
 .brand-color-light {
   color: #d1be5f; }
 
-/* line 74, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
+/* line 88, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
 .main {
   height: 100%; }
 
-/* line 77, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
+/* line 91, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
 .hero {
   min-height: 500px;
   min-height: 80vh;
@@ -80,20 +86,20 @@ body {
   color: #eee;
   background-color: #202020; }
 
-/* line 85, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
+/* line 99, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
 .full-row {
   height: 100%; }
 
-/* line 88, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
+/* line 102, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
 .faded-text-1 {
   color: #444; }
 
-/* line 93, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
+/* line 107, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
 .services ul {
   list-style-position: inside;
   list-style-image: url("/icons/tick_grad_brand.svg"); }
 
-/* line 97, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
+/* line 111, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
 .services li {
   padding-top: 0;
   padding-bottom: 2px;
@@ -101,60 +107,64 @@ body {
   color: #888;
   margin-left: 20px; }
 
-/* line 112, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
+/* line 126, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
 .services, .services .list-group-item {
   background: #202020;
   color: #eee; }
 
-/* line 116, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
+/* line 130, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
 .service-border {
   border-bottom: 1px solid rgba(200, 200, 211, 0.5); }
 
-/* line 119, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
+/* line 133, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
 .services .brand-icon {
   display: none; }
 
 @media (min-width: 768px) {
-  /* line 123, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
+  /* line 137, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
   .service-border {
     border-left: 1px solid rgba(200, 200, 211, 0.5); }
-  /* line 126, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
+  /* line 140, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
   .services .brand-icon {
     display: block; } }
 
+/* line 153, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
+.team .media img {
+  max-width: 200px; }
+
 @media (max-width: 576px) {
-  /* line 139, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
+  /* line 158, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
   .team .media {
     flex-flow: wrap;
     justify-content: center;
     margin-bottom: 2rem; }
-    /* line 146, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
+    /* line 165, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
     .team .media .media-body {
       margin-top: 1rem;
       flex: 1 1 100%;
       text-align: center; } }
 
 @media (min-width: 577px) and (max-width: 767px) {
-  /* line 156, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
+  /* line 175, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
   .team .media:nth-child(even) img {
     order: 1; }
-  /* line 157, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
+  /* line 176, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
   .team .media:nth-child(even) .media-body {
     margin-right: 10px;
     text-align: right; } }
 
 @media (min-width: 768px) {
-  /* line 167, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
+  /* line 186, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
   .team .media:nth-child(4n+3) img {
     order: 1; }
-  /* line 168, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
+  /* line 187, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
   .team .media:nth-child(4n+3) .media-body {
     margin-right: 10px;
     text-align: right; }
-  /* line 174, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
+  /* line 193, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
   .team .media:nth-child(4n+4) img {
     order: 1; }
-  /* line 175, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
+  /* line 194, /home/kennedy/Documents/FreeCodeCamp.org/staging/rcgcltd.github.io/css/style.scss */
   .team .media:nth-child(4n+4) .media-body {
     margin-right: 10px;
     text-align: right; } }

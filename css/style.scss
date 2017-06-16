@@ -17,6 +17,10 @@ body {
     font-family: $default-font-stack;
 }
 
+.bg-grey {
+	background-color: #eee;
+}
+
 .services a {
     color: $brand-color-light;
     &:hover {
@@ -24,16 +28,20 @@ body {
         color: $color-inverse-1;
     }
 }
+
 .b-link-inverse {
     color: $brand-color-light;
     &:hover {
+        text-decoration: none;
         background-color: $brand-color-dark;
         color: $color-inverse-1;
     }
 }
 .b-link {
+    
     color: $brand-color-dark;
     &:hover {
+        text-decoration: none;
         background-color: $brand-color-light;
         color: $color-inverse-2;
     }
@@ -56,6 +64,12 @@ body {
 .logo-img {
 	max-width: 50px;
 }
+//@media (max-width: 576px){
+//    .brand-name {
+//	    display: flex;
+//        flex-flow: column wrap;
+//    }
+//}
 .brand-icon {
     max-width: 90px;
 }
@@ -134,6 +148,11 @@ body {
 }
 textarea {
 //    max-height: 100%;
+}
+.team .media {
+    img {
+        max-width: 200px;
+    }
 }
 @media (max-width: 576px){
 .team .media {
