@@ -61,7 +61,36 @@
             <div class="event-info d-flex flex-wrap justify-content-center mr-auto ml-auto">
                 <h1 class="event-header text-capitalize">human empowerment and economic growth</h1>
                 <p>Being able to rise up to the glaring economic challenges of our times requires that indiduals obtain the knowledge and motivation that will enable them be financially independent and viable; creating jobs for others as well.<br>This conference is aimed at enlightening people on the opportunities that abound and giving the people the needed <strong>push</strong> to financial independence.</p>
-                <div class="btn btn-primary text-uppercase">reserve seat</div>
+                <button type="button" class="btn btn-primary text-uppercase" data-toggle="modal" data-target="#reserveModal">reserve seat</button>
+                <!-- Modal -->
+                <div class="modal fade" id="reserveModal" tabindex="-1" role="dialog" aria-labelledby="reserveModalLabel" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                     <form action="https://formspree.io/rcgcltd@hotmail.com" method="POST">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="reserveModalLabel">Reserve Seat</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                               <div class="form-group">
+                                <label for="inputName">Your name:</label>
+                                <input type="text" class="form-control" id="inputName" name="name" placeholder="Name" autocomplete="name" >
+                            </div>
+                            <div class="form-group">
+                                <label for="inputEmail">Email address:</label>
+                                <input type="email" class="form-control" id="inputEmail" name="_replyto" placeholder="Email" required autocomplete="email">
+                            </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary">Reserve seat</button>
+                  </div>
+                </form>
+                </div>
+              </div>
+            </div>
             </div>
         </div>
         <section class="speakers container" id="speakers">
@@ -139,7 +168,8 @@
             <h2 class="row text-uppercase justify-content-center">sponsors</h2>
             <div class="row justify-content-around">
             <a href="http://www.rcgcltd.com"><img src="../images/corporate_logo.jpg" width="200px"></a>
-            <img class="align-self-center" src="images/WATCHMAN-LOGO.JPG" width="200px">
+            <span class="align-self-center text-center"><h5 class="align-self-center">Pastor Raymond John</h5><small>WCCRM Okigwe</small>
+            </span>
             </div>
         </section>
         <footer class="footer container-fluid bg-inverse">
