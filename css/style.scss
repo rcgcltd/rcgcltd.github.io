@@ -28,6 +28,13 @@ body {
         color: $color-inverse-1;
     }
 }
+#about a {
+    color: $brand-color-dark;
+    &:hover {
+        background-color: $brand-color-dark;
+        color: $color-inverse-1;
+    }
+}
 
 .b-link-inverse {
     color: $brand-color-light;
@@ -120,6 +127,13 @@ body {
         //     font-weight: 700;
         // }
         
+    }
+    h5 {
+        margin-bottom: 0;
+    }
+    .media img {
+        max-width: 50px;
+        border-radius: 25%;
     }
 }
 
